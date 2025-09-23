@@ -1,6 +1,6 @@
 # bare-node-runtime
 
-Bare utilities for Node.js compatibility.
+Compatibility layer for Node.js builtins and globals in Bare.
 
 ```
 npm i bare-node-runtime

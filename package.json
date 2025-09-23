@@ -1,7 +1,7 @@
 {
   "name": "bare-node-runtime",
   "version": "1.0.4",
-  "description": "Bare utilities for Node.js compatibility",
+  "description": "Compatibility layer for Node.js builtins and globals in Bare",
   "exports": {
     "./global": "./global.js",
     "./imports": "./imports.json",
