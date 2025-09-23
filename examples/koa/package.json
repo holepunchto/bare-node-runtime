@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bare-node-runtime": "file:../..",
+    "koa": "^3.0.1"
+  }
+}
