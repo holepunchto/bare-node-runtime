@@ -40,7 +40,7 @@
     "bare-net": "^2.0.2",
     "bare-os": "^3.6.2",
     "bare-path": "^3.0.0",
-    "bare-performance": "^1.0.1",
+    "bare-performance": "^1.1.0",
     "bare-process": "^4.2.1",
     "bare-querystring": "^1.0.0",
     "bare-readline": "^1.1.0",
