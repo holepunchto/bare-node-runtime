@@ -36,7 +36,6 @@
     "bare-http1": "^4.0.4",
     "bare-https": "^2.0.0",
     "bare-inspector": "^4.0.3",
-    "bare-intl": "^0.0.0",
     "bare-module": "^5.0.3",
     "bare-net": "^2.0.2",
     "bare-os": "^3.6.2",
