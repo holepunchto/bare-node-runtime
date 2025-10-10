@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bare-node-runtime": "file:../..",
+    "ws": "^8.18.3"
+  }
+}
