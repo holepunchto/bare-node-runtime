@@ -119,6 +119,10 @@
     "bare": "bare-utils",
     "default": "util"
   },
+  "v8": {
+    "bare": "bare-v8",
+    "default": "v8"
+  },
   "vm": {
     "bare": "bare-vm",
     "default": "vm"
@@ -246,6 +250,10 @@
   "node:util": {
     "bare": "bare-utils",
     "default": "node:util"
+  },
+  "node:v8": {
+    "bare": "bare-v8",
+    "default": "node:v8"
   },
   "node:vm": {
     "bare": "bare-vm",
