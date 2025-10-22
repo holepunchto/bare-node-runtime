@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bare-node-runtime": "file:../..",
+    "express": "^5.1.0"
+  }
+}
