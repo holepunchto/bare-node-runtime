@@ -42,6 +42,7 @@
     "bare-path": "^3.0.0",
     "bare-performance": "^1.1.0",
     "bare-process": "^4.2.1",
+    "bare-punycode": "^0.0.0",
     "bare-querystring": "^1.0.0",
     "bare-readline": "^1.1.0",
     "bare-repl": "^5.0.0",
