@@ -211,6 +211,10 @@
     "bare": "bare-process",
     "default": "node:process"
   },
+  "node:punycode": {
+    "bare": "bare-punycode",
+    "default": "node:punycode"
+  },
   "node:querystring": {
     "bare": "bare-querystring",
     "default": "node:querystring"
