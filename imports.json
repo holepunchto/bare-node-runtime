@@ -23,6 +23,10 @@
     "bare": "bare-crypto",
     "default": "crypto"
   },
+  "diagnostics_channel": {
+    "bare": "bare-diagnostics-channel",
+    "default": "diagnostics_channel"
+  },
   "dgram": {
     "bare": "bare-dgram",
     "default": "dgram"
@@ -158,6 +162,10 @@
   "node:crypto": {
     "bare": "bare-crypto",
     "default": "node:crypto"
+  },
+  "node:diagnostics_channel": {
+    "bare": "bare-diagnostics-channel",
+    "default": "node:diagnostics_channel"
   },
   "node:dgram": {
     "bare": "bare-dgram",
