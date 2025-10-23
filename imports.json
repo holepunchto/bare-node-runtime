@@ -3,7 +3,23 @@
     "bare": "bare-assert",
     "default": "assert"
   },
+  "node:assert": {
+    "bare": "bare-assert",
+    "default": "assert"
+  },
+  "assert/strict": {
+    "bare": "bare-assert/strict",
+    "default": "assert/strict"
+  },
+  "node:assert/strict": {
+    "bare": "bare-assert/strict",
+    "default": "assert/strict"
+  },
   "async_hooks": {
+    "bare": "bare-async-hooks",
+    "default": "async_hooks"
+  },
+  "node:async_hooks": {
     "bare": "bare-async-hooks",
     "default": "async_hooks"
   },
@@ -11,31 +27,95 @@
     "bare": "bare-buffer",
     "default": "buffer"
   },
+  "node:buffer": {
+    "bare": "bare-buffer",
+    "default": "buffer"
+  },
   "child_process": {
     "bare": "bare-subprocess",
     "default": "child_process"
+  },
+  "node:child_process": {
+    "bare": "bare-subprocess",
+    "default": "child_process"
+  },
+  "cluster": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "cluster"
+  },
+  "node:cluster": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "cluster"
   },
   "console": {
     "bare": "bare-console",
     "default": "console"
   },
+  "node:console": {
+    "bare": "bare-console",
+    "default": "console"
+  },
+  "constants": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "constants"
+  },
+  "node:constants": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "constants"
+  },
   "crypto": {
     "bare": "bare-crypto",
     "default": "crypto"
   },
-  "diagnostics_channel": {
-    "bare": "bare-diagnostics-channel",
-    "default": "diagnostics_channel"
+  "node:crypto": {
+    "bare": "bare-crypto",
+    "default": "crypto"
   },
   "dgram": {
     "bare": "bare-dgram",
     "default": "dgram"
   },
+  "node:dgram": {
+    "bare": "bare-dgram",
+    "default": "dgram"
+  },
+  "diagnostics_channel": {
+    "bare": "bare-diagnostics-channel",
+    "default": "diagnostics_channel"
+  },
+  "node:diagnostics_channel": {
+    "bare": "bare-diagnostics-channel",
+    "default": "diagnostics_channel"
+  },
   "dns": {
     "bare": "bare-dns",
     "default": "dns"
   },
+  "node:dns": {
+    "bare": "bare-dns",
+    "default": "dns"
+  },
+  "dns/promises": {
+    "bare": "bare-dns/promises",
+    "default": "dns/promises"
+  },
+  "node:dns/promises": {
+    "bare": "bare-dns/promises",
+    "default": "dns/promises"
+  },
+  "domain": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "domain"
+  },
+  "node:domain": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "domain"
+  },
   "events": {
+    "bare": "bare-events",
+    "default": "events"
+  },
+  "node:events": {
     "bare": "bare-events",
     "default": "events"
   },
@@ -43,11 +123,39 @@
     "bare": "bare-fs",
     "default": "fs"
   },
+  "node:fs": {
+    "bare": "bare-fs",
+    "default": "fs"
+  },
+  "fs/promises": {
+    "bare": "bare-fs/promises",
+    "default": "fs/promises"
+  },
+  "node:fs/promises": {
+    "bare": "bare-fs/promises",
+    "default": "fs/promises"
+  },
   "http": {
     "bare": "bare-http1",
     "default": "http"
   },
+  "node:http": {
+    "bare": "bare-http1",
+    "default": "http"
+  },
+  "http2": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "http2"
+  },
+  "node:http2": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "http2"
+  },
   "https": {
+    "bare": "bare-https",
+    "default": "https"
+  },
+  "node:https": {
     "bare": "bare-https",
     "default": "https"
   },
@@ -55,7 +163,23 @@
     "bare": "bare-inspector",
     "default": "inspector"
   },
+  "node:inspector": {
+    "bare": "bare-inspector",
+    "default": "inspector"
+  },
+  "inspector/promises": {
+    "bare": "bare-inspector/promises",
+    "default": "inspector/promises"
+  },
+  "node:inspector/promises": {
+    "bare": "bare-inspector/promises",
+    "default": "inspector/promises"
+  },
   "module": {
+    "bare": "bare-module",
+    "default": "module"
+  },
+  "node:module": {
     "bare": "bare-module",
     "default": "module"
   },
@@ -63,7 +187,15 @@
     "bare": "bare-net",
     "default": "net"
   },
+  "node:net": {
+    "bare": "bare-net",
+    "default": "net"
+  },
   "os": {
+    "bare": "bare-os",
+    "default": "os"
+  },
+  "node:os": {
     "bare": "bare-os",
     "default": "os"
   },
@@ -71,7 +203,31 @@
     "bare": "bare-path",
     "default": "path"
   },
+  "node:path": {
+    "bare": "bare-path",
+    "default": "path"
+  },
+  "path/posix": {
+    "bare": "bare-path/posix",
+    "default": "path/posix"
+  },
+  "node:path/posix": {
+    "bare": "bare-path/posix",
+    "default": "path/posix"
+  },
+  "path/win32": {
+    "bare": "bare-path/win32",
+    "default": "path/win32"
+  },
+  "node:path/win32": {
+    "bare": "bare-path/win32",
+    "default": "path/win32"
+  },
   "perf_hooks": {
+    "bare": "bare-performance",
+    "default": "perf_hooks"
+  },
+  "node:perf_hooks": {
     "bare": "bare-performance",
     "default": "perf_hooks"
   },
@@ -79,7 +235,15 @@
     "bare": "bare-process",
     "default": "process"
   },
+  "node:process": {
+    "bare": "bare-process",
+    "default": "process"
+  },
   "punycode": {
+    "bare": "bare-punycode",
+    "default": "punycode"
+  },
+  "node:punycode": {
     "bare": "bare-punycode",
     "default": "punycode"
   },
@@ -87,31 +251,151 @@
     "bare": "bare-querystring",
     "default": "querystring"
   },
+  "node:querystring": {
+    "bare": "bare-querystring",
+    "default": "querystring"
+  },
   "readline": {
     "bare": "bare-readline",
     "default": "readline"
+  },
+  "node:readline": {
+    "bare": "bare-readline",
+    "default": "readline"
+  },
+  "readline/promises": {
+    "bare": "bare-readline/promises",
+    "default": "readline/promises"
+  },
+  "node:readline/promises": {
+    "bare": "bare-readline/promises",
+    "default": "readline/promises"
   },
   "repl": {
     "bare": "bare-repl",
     "default": "repl"
   },
+  "node:repl": {
+    "bare": "bare-repl",
+    "default": "repl"
+  },
+  "sea": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "sea"
+  },
+  "node:sea": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "sea"
+  },
+  "sqlite": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "sqlite"
+  },
+  "node:sqlite": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "sqlite"
+  },
   "stream": {
     "bare": "bare-stream",
     "default": "stream"
+  },
+  "node:stream": {
+    "bare": "bare-stream",
+    "default": "stream"
+  },
+  "stream/consumers": {
+    "bare": "bare-stream/consumers",
+    "default": "stream/consumers"
+  },
+  "node:stream/consumers": {
+    "bare": "bare-stream/consumers",
+    "default": "stream/consumers"
+  },
+  "stream/promises": {
+    "bare": "bare-stream/promises",
+    "default": "stream/promises"
+  },
+  "node:stream/promises": {
+    "bare": "bare-stream/promises",
+    "default": "stream/promises"
+  },
+  "stream/web": {
+    "bare": "bare-stream/web",
+    "default": "stream/web"
+  },
+  "node:stream/web": {
+    "bare": "bare-stream/web",
+    "default": "stream/web"
   },
   "string_decoder": {
     "bare": "bare-string-decoder",
     "default": "string_decoder"
   },
+  "node:string_decoder": {
+    "bare": "bare-string-decoder",
+    "default": "string_decoder"
+  },
+  "sys": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "sys"
+  },
+  "node:sys": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "sys"
+  },
+  "test": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "test"
+  },
+  "node:test": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "test"
+  },
+  "test/reporters": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "test/reporters"
+  },
+  "node:test/reporters": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "test/reporters"
+  },
   "timers": {
     "bare": "bare-timers",
     "default": "timers"
+  },
+  "node:timers": {
+    "bare": "bare-timers",
+    "default": "timers"
+  },
+  "timers/promises": {
+    "bare": "bare-timers/promises",
+    "default": "timers/promises"
+  },
+  "node:timers/promises": {
+    "bare": "bare-timers/promises",
+    "default": "timers/promises"
   },
   "tls": {
     "bare": "bare-tls",
     "default": "tls"
   },
+  "node:tls": {
+    "bare": "bare-tls",
+    "default": "tls"
+  },
+  "trace_events": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "trace_events"
+  },
+  "node:trace_events": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "trace_events"
+  },
   "tty": {
+    "bare": "bare-tty",
+    "default": "tty"
+  },
+  "node:tty": {
     "bare": "bare-tty",
     "default": "tty"
   },
@@ -119,11 +403,31 @@
     "bare": "bare-url",
     "default": "url"
   },
+  "node:url": {
+    "bare": "bare-url",
+    "default": "url"
+  },
   "util": {
     "bare": "bare-utils",
     "default": "util"
   },
+  "node:util": {
+    "bare": "bare-utils",
+    "default": "util"
+  },
+  "util/types": {
+    "bare": "bare-utils/types",
+    "default": "util/types"
+  },
+  "node:util/types": {
+    "bare": "bare-utils/types",
+    "default": "util/types"
+  },
   "v8": {
+    "bare": "bare-v8",
+    "default": "v8"
+  },
+  "node:v8": {
     "bare": "bare-v8",
     "default": "v8"
   },
@@ -131,7 +435,23 @@
     "bare": "bare-vm",
     "default": "vm"
   },
+  "node:vm": {
+    "bare": "bare-vm",
+    "default": "vm"
+  },
+  "wasi": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "wasi"
+  },
+  "node:wasi": {
+    "bare": "bare-node-runtime/unsupported",
+    "default": "wasi"
+  },
   "worker_threads": {
+    "bare": "bare-worker",
+    "default": "worker_threads"
+  },
+  "node:worker_threads": {
     "bare": "bare-worker",
     "default": "worker_threads"
   },
@@ -139,144 +459,8 @@
     "bare": "bare-zlib",
     "default": "zlib"
   },
-  "node:assert": {
-    "bare": "bare-assert",
-    "default": "node:assert"
-  },
-  "node:async_hooks": {
-    "bare": "bare-async-hooks",
-    "default": "node:async_hooks"
-  },
-  "node:buffer": {
-    "bare": "bare-buffer",
-    "default": "node:buffer"
-  },
-  "node:child_process": {
-    "bare": "bare-subprocess",
-    "default": "node:child_process"
-  },
-  "node:console": {
-    "bare": "bare-console",
-    "default": "node:console"
-  },
-  "node:crypto": {
-    "bare": "bare-crypto",
-    "default": "node:crypto"
-  },
-  "node:diagnostics_channel": {
-    "bare": "bare-diagnostics-channel",
-    "default": "node:diagnostics_channel"
-  },
-  "node:dgram": {
-    "bare": "bare-dgram",
-    "default": "node:dgram"
-  },
-  "node:dns": {
-    "bare": "bare-dns",
-    "default": "node:dns"
-  },
-  "node:events": {
-    "bare": "bare-events",
-    "default": "node:events"
-  },
-  "node:fs": {
-    "bare": "bare-fs",
-    "default": "node:fs"
-  },
-  "node:http": {
-    "bare": "bare-http1",
-    "default": "node:http"
-  },
-  "node:https": {
-    "bare": "bare-https",
-    "default": "node:https"
-  },
-  "node:inspector": {
-    "bare": "bare-inspector",
-    "default": "node:inspector"
-  },
-  "node:module": {
-    "bare": "bare-module",
-    "default": "node:module"
-  },
-  "node:net": {
-    "bare": "bare-net",
-    "default": "node:net"
-  },
-  "node:os": {
-    "bare": "bare-os",
-    "default": "node:os"
-  },
-  "node:path": {
-    "bare": "bare-path",
-    "default": "node:path"
-  },
-  "node:perf_hooks": {
-    "bare": "bare-performance",
-    "default": "node:perf_hooks"
-  },
-  "node:process": {
-    "bare": "bare-process",
-    "default": "node:process"
-  },
-  "node:punycode": {
-    "bare": "bare-punycode",
-    "default": "node:punycode"
-  },
-  "node:querystring": {
-    "bare": "bare-querystring",
-    "default": "node:querystring"
-  },
-  "node:readline": {
-    "bare": "bare-readline",
-    "default": "node:readline"
-  },
-  "node:repl": {
-    "bare": "bare-repl",
-    "default": "node:repl"
-  },
-  "node:stream": {
-    "bare": "bare-stream",
-    "default": "node:stream"
-  },
-  "node:string_decoder": {
-    "bare": "bare-string-decoder",
-    "default": "node:string_decoder"
-  },
-  "node:timers": {
-    "bare": "bare-timers",
-    "default": "node:timers"
-  },
-  "node:tls": {
-    "bare": "bare-tls",
-    "default": "node:tls"
-  },
-  "node:tty": {
-    "bare": "bare-tty",
-    "default": "node:tty"
-  },
-  "node:url": {
-    "bare": "bare-url",
-    "default": "node:url"
-  },
-  "node:util": {
-    "bare": "bare-utils",
-    "default": "node:util"
-  },
-  "node:v8": {
-    "bare": "bare-v8",
-    "default": "node:v8"
-  },
-  "node:vm": {
-    "bare": "bare-vm",
-    "default": "node:vm"
-  },
-  "node:worker_threads": {
-    "bare": "bare-worker",
-    "default": "node:worker_threads"
-  },
   "node:zlib": {
     "bare": "bare-zlib",
-    "default": "node:zlib"
+    "default": "zlib"
   }
 }
