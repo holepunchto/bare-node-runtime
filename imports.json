@@ -462,5 +462,9 @@
   "node:zlib": {
     "bare": "bare-zlib",
     "default": "zlib"
+  },
+  "node-fetch": {
+    "bare": "bare-fetch",
+    "default": "node-fetch"
   }
 }
