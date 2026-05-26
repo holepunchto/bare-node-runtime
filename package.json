@@ -53,6 +53,7 @@
     "bare-querystring": "^1.0.0",
     "bare-readline": "^1.1.0",
     "bare-repl": "^6.0.1",
+    "bare-sqlite": "^0.1.4",
     "bare-stream": "^2.7.0",
     "bare-string-decoder": "^1.0.0",
     "bare-subprocess": "^6.0.0",

@@ -288,11 +288,11 @@
     "default": "sea"
   },
   "sqlite": {
-    "bare": "bare-node-runtime/unsupported",
+    "bare": "bare-sqlite",
     "default": "sqlite"
   },
   "node:sqlite": {
-    "bare": "bare-node-runtime/unsupported",
+    "bare": "bare-sqlite",
     "default": "sqlite"
   },
   "stream": {
