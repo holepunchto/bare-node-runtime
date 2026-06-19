@@ -7,3 +7,5 @@ require('bare-performance/global')
 require('bare-process/global')
 require('bare-stream/global')
 require('bare-ws/global')
+
+process.versions.node = '20.0.0' // Compatibility target
