@@ -58,7 +58,7 @@
     "bare-string-decoder": "^1.0.0",
     "bare-subprocess": "^6.0.0",
     "bare-timers": "^3.0.3",
-    "bare-tls": "^3.0.0",
+    "bare-tls": "^3.1.13",
     "bare-tty": "^5.0.3",
     "bare-url": "^2.2.2",
     "bare-utils": "^1.5.1",
