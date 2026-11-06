@@ -1,6 +1,6 @@
 {
   "name": "bare-node-runtime",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "Compatibility layer for Node.js builtins and globals in Bare",
   "exports": {
     "./package": "./package.json",
